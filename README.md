@@ -2,8 +2,7 @@
 Projet alos 
 
 Première activité 
-1)
-La requête 1 permet d'afficher les dix premiers
+1)La requête 1 permet d'afficher les dix premiers
 éléments de notre base de données ils seront affichés 
 Dans l'ordre dans lequel ils sont enregistrés dans notre 
 Base de données.
@@ -12,8 +11,7 @@ Base de données.
 
 
 
-2)
-La requête 2 permet de d'afficher que les éléments 
+2)La requête 2 permet de d'afficher que les éléments 
 De notre bases de données ayant une valeur de l'attribut 
 Name commençant par "M"
 
