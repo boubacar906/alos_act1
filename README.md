@@ -8,6 +8,13 @@
 Dans l'ordre dans lequel ils sont enregistrés dans notre 
 Base de données.
 
+var requete1 = unirest("GET","http://localhost:3000/db?limit=10");
+requete1.end(function (res) {
+  if (res.error) throw new Error(res,error)
+  console.log(res.body)
+})
+
+
 
 
 
