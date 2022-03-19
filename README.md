@@ -1,7 +1,7 @@
 # alos_act1
-                   Projet alos 
+          Projet alos 
 
-                 Première activité 
+       Première activité 
 
 1)La requête 1 permet d'afficher les dix premiers
 éléments de notre base de données ils seront affichés 
@@ -24,12 +24,11 @@ De notre bases de données ayant une valeur de l'attribut
 Name commençant par "M"
 
 
-
-
-
-
-
-
+var requete2 = unirest("GET","http://localhost:3000/db");
+requete2.end(function (res) {
+  if (res.error) throw new Error(res,error)
+  console.log(res.body.filter((db) => db.name.startsWith("M")))
+})
 
 
 3)la 6eme ligne du listing 2 
